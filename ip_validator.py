@@ -20,11 +20,3 @@ class IPValidator:
     #         if len(part) > 4 or not all(c in '0123456789abcdefABCDEF' for c in part):
     #             return False
     #     return True
-
-    # def validate(self):
-    #     if self.is_valid_ipv4():
-    #         return "Valid IPv4"
-    #     elif self.is_valid_ipv6():
-    #         return "Valid IPv6"
-    #     else:
-    #         return "Invalid IP address"
