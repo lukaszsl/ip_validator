@@ -20,5 +20,5 @@ class TestIPValidator(unittest.TestCase):
     def test_invalid_ipv4_too_many_octets(self):
         self.assertFalse(self.validator.is_valid_ipv4("10.10.10.10.10"))  
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main(verbosity=2)   
